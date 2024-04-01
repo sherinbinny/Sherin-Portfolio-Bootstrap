@@ -24,3 +24,14 @@
     font-size: 1.5rem;
     color: #fff;
   }
+
+  /* Hyperlink hover effect, remove underline */
+    footer a:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* On Button hover add box shadow*/
+  footer .btn:hover {
+    box-shadow: 0 0 10px rgb(169 158 158 / 50%);
+  }
