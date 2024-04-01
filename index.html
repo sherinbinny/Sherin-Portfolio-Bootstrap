@@ -16,54 +16,121 @@
  <!-- Navigation bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">Front End Developer</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#About-me">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Work">Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Contact-me">Contact Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Resume">Resume</a>
-          </li>
-        </ul>
-      </div>
+        <a class="navbar-brand" href="#">Front End Developer</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navigation button on mobile devices -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#About-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Work">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact-me">Contact Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Resume">Resume</a>
+                </li>
+            </ul>
+        </div>
     </div>
   </nav>
 
   <!-- Hero banner -->
   <section class="hero-banner text-center">
     <div class="jumbotron jumbotron-fluid">
-      <h1 class="display-4">Sherin Binny</h1>
-      <p class="lead">As a Frontend Engineer at Nationwide Utilities, I excel in designing and optimizing intricate user interfaces, with a focus on enhancing the user experience. I've suc- cessfully delivered projects such as lead management, energy price tracking, and deal comparison platforms. I collaborate effectively with UX designers to ensure intuitive interfaces.</p>
+        <h1 class="display-4">Sherin Binny</h1>
+        <p class="lead">As a Frontend Engineer at Nationwide Utilities, I excel in designing and optimizing intricate user interfaces, with a focus on enhancing the user experience. I've successfully delivered projects such as lead management, energy price tracking, and deal comparison platforms. I collaborate effectively with UX designers to ensure intuitive interfaces.</p>
     </div>
   </section>
 
   <main class="page-wrapper">
+
     <!-- About me section -->
     <section class="page-section" id="About-me">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              <h2>About Me</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec velit eu sem ultricies condimentum.
-                Praesent auctor euismod augue, nec bibendum urna bibendum non.</p>
+            <div class="col-md-12">
+              <h2 class="py-5">About Me</h2>
+              <p>With five years of diverse frontend development experience, I'm highly motivated and committed to skill expansion. I'm effective at meeting project requirements and dead- lines, fostering productive collaborations with colleagues, and integrating third-party systems. My approach combines creative thinking with rigorous problem-solving.</p>
             </div>
           </div>
         </div>
-      </section>
+    </section>
 
+    
 
+    <!-- Work portfolio section -->
+    <section class="page-section" id="Work">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                <h2 class="py-5">Work</h2>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Project 1 container -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card" role="button">
+                        <img src="/images/portfolio-1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Surf Report</h5>
+                            <p class="card-text">Surf Report is a web application built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). It provides users with real-time surf conditions and forecasts for various locations. Users can view wave heights, wind speeds, and other relevant information to plan their surfing activities.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 container -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card" role="button">
+                        <img src="/images/portfolio-2.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">LED Wall</h5>
+                            <p class="card-text">The LED Wall project involved creating a Node.js application to control an LED display wall. This project integrates IoT technology with Node.js to allow users to remotely manage and manipulate the display content.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 container -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card" role="button">
+                        <img src="/images/portfolio-3.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Calculator</h5>
+                            <p class="card-text">A simple calculator web application built using React, JavaScript, and CSS. Allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="row">
+                <!-- Project 4 container -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card" role="button">
+                        <img src="/images/portfolio-4.jpg" class="card-img-top" alt="Project 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Pastel Puzzles</h5>
+                            <p class="card-text">Pastel Puzzles is a web application developed using the MERN stack. It offers a collection of colorful and engaging puzzles for users to solve, providing entertainment and mental stimulation. The project showcases my skills in full-stack web development, including database management, backend logic implementation, and frontend design.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5 container -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card" role="button">
+                        <img src="images/portfolio-5.jpg" class="card-img-top" alt="Project 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Run Buddy</h5>
+                            <p class="card-text">Run Buddy is a fitness website designed to connect users with personal trainers for personalized workout plans and fitness coaching. The website features user registration, trainer profiles, and booking functionality.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
 
 
   </main>
